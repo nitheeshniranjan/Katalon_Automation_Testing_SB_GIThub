@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body style="background-color: rgb(18, 224, 224);">
+    <h2>Welcome, Student</h2>
+
+    <div id="profile-section">
+        <h3>Personal Profile</h3>
+        <img id="profile-photo" src="" alt="Profile Photo">
+        <p id="profile-name"></p>
+        <p id="profile-contact"></p>
+        <h4>Academic Information</h4>
+        <p id="profile-courses"></p>
+        <p id="profile-grades"></p>
+        <p id="profile-attendance"></p>
+    </div>
+
+    <div id="search-section">
+        <h3>Search for Other Students</h3>
+        <input type="text" id="search-bar" placeholder="Search by name, department, or year">
+        <button onclick="searchStudents()">Search</button>
+        <ul id="search-results"></ul>
+    </div>
+
+    <div id="advisor-section">
+        <h3>Contact Faculty Advisors</h3>
+        <ul id="advisor-list"></ul>
+    </div>
+
+    <script src="scripts3.js"></script>
+</body>
+</html>
